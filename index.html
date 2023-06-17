@@ -14,21 +14,167 @@
 
     <header class="header">
         
-        <div class="header__logo"><img src="./image/coins.png" alt="Logo image"><span>NeoSchool</span></div>
+        <div class="header__logo"><img src="./image/logo.png" alt="Logo image"><span>NeoSchool</span></div>
 
         <ul class="header__list">
-            <li><a href="" class="header__link">Про NeoSchool</a></li>
-            <li><a href="" class="header__link">Наша Програма</a></li>
-            <li><a href="" class="header__link">Формат Навчання</a></li>
-            <li><a href="" class="header__link">Переваги NeoSchool</a></li>
-            <li><a href="" class="header__link">Зарахування</a></li>
+            <li><a href="#hero" class="header__link">Про NeoSchool</a></li>
+            <li><a href="#technology" class="header__link">АйТі Технології</a></li>
+            <li><a href="#study" class="header__link">Формат Навчання</a></li>
+            <li><a href="#features" class="header__link">Переваги NeoSchool</a></li>
+            <li><a href="#cost" class="header__link">Вартість</a></li>
+            <li><a href="#letter" class="header__link">Зарахування</a></li>
         </ul>
 
     </header>
 
     <main>
 
-        
+        <section class="hero" id="hero">
+            <div>
+                <h1 class="hero__title">Ласкаво просимо до <span class="hero__title-one">NeoSchool</span> <br> - інноваційної школи майбутнього!</h1>
+                <p class="hero__paragraph">Ми пропонуємо вам програму освіти, яка забезпечить вам унікальні можливості у вашій кар'єрі. <span class="hero__paragraph-one">Окрім базових предметів, таких як україньска мова і математика, NeoSchool пропонує інтенсивну підготовку в сфері IT</span>. Ви зможете стати експертом y цьому швидкозмінному секторі!</p>
+            </div>
+            <div class="hero__img">
+                <img class="hero__img-one" src="./image/hero/01.jpg" alt="Вчитель">
+                <img src="./image/hero/02.jpg" alt="Хлопець">
+            </div>
+        </section>
+
+        <section class="technology" id="technology">
+            <h2 class="technology__title title">Технології які ви будете вивчати:</h2>
+            <div class="technology__row">
+                <div class="technology__img"><img src="./image/technology.png" alt="Чувак за ноутбуком"></div>
+                <div class="technology__content">
+                    <ul>
+                        <li class="technology__item">Мови програмування</li>
+                        <li class="technology__item">Мережі</li>
+                        <li class="technology__item">Бази даних</li>
+                        <li class="technology__item">Дизайн</li>
+                        <li class="technology__item">Налагодження та тестування</li>
+                        <li class="technology__item">Гейм Дизайн</li>
+                        <li class="technology__item">Відео Монтаж</li>
+                    </ul>
+                    <p class="technology__text">*ви можете обрати спеціальність яка вам більше до душі, а також змінити її в будь який момент часу</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="study" id="study">
+            <h2 class="study__title title">Як відбувається навчання у NeoSchool?</h2>
+            <p class="study__paragraph paragraph">Відкрийте для себе новий рівень навчання з NeoSchool - ми пропонуємо онлайн формат, який забезпечує гнучкість та інтерактивність. Отримайте доступ до високоякісної освіти, спілкуйтесь з викладачами та однокласниками, виконуйте завдання у зручний для вас час та місце.</p>
+            <div class="study__video"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./image/rickroll.jpg" alt="Рікролл"></a></div>
+            <ul class="study__row">
+                <li class="study__item item-study">
+                    <p class="item-study__number">01</p>
+                    <h3 class="item-study__title">Весь матеріал розбитий на невеликі уроки</h3>
+                    <p class="item-study__paragraph">Теорія і практика подаються маленькими порціями. Так вам буде легше засвоювати нові знання.</p>
+                </li>
+                <li class="study__item item-study">
+                    <p class="item-study__number">02</p>
+                    <h3 class="item-study__title">Навчання через практику</h3>
+                    <p class="item-study__paragraph">Все, що ви дізналися, ви тут же починаєте застосовувати на практиці. Ви відразу бачите результати своєї праці.</p>
+                </li>
+                <li class="study__item item-study">
+                    <p class="item-study__number">03</p>
+                    <h3 class="item-study__title">Немає обмежень за часом</h3>
+                    <p class="item-study__paragraph">Можна поєднувати навчання з роботою 
+                        та іншими справами. Не потрібно випрошувати відпустку, якщо довелося зробити перерву.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="features" id="features">
+            <h2 class="features__title title">Навчання в NeoSchool - це зручно і результативно</h2>
+            <ul class="features__list">
+                <li class="features__item item-features">
+                    <div class="item-features__icon"><img src="./image/features/01.png" alt="Іконка коду"></div>
+                    <h3 class="item-features__title">Величезна кількість практики</h3>
+                    <p class="item-features__paragraph">Більше 500 самостійних завдань i 20 повноцінних великих проектів</p>
+                </li>
+                <li class="features__item item-features">
+                    <div class="item-features__icon"><img src="./image/features/02.png" alt="Іконка атому"></div>
+                    <h3 class="item-features__title">Сучасні методики навчання</h3>
+                    <p class="item-features__paragraph">Спіральне навчання: занурюємося в матеріал поступово, виток за витком</p>
+                </li>
+                <li class="features__item item-features">
+                    <div class="item-features__icon"><img src="./image/features/03.png" alt="Іконка компьютеру"></div>
+                    <h3 class="item-features__title">Просте і зрозуміле викладання</h3>
+                    <p class="item-features__paragraph">Замість незрозумілих термінів - приклади з реального світу</p>
+                </li>
+                <li class="features__item item-features">
+                    <div class="item-features__icon"><img src="./image/features/04.png" alt="Іконка графіку"></div>
+                    <h3 class="item-features__title">Гнучкий графік занять</h3>
+                    <p class="item-features__paragraph">Вчіться в будь-який час в зручному для вас темпі</p>
+                </li>
+                <li class="features__item item-features">
+                    <div class="item-features__icon"><img src="./image/features/05.png" alt="Іконка чатів"></div>
+                    <h3 class="item-features__title">Прямий зв'язок з досвідченими програмістами</h3>
+                    <p class="item-features__paragraph">Задавайте питання і відправляйте свій код на перевірку</p>
+                </li>
+                <li class="features__item item-features">
+                    <div class="item-features__icon"><img src="./image/features/06.png" alt="Іконка оплати"></div>
+                    <h3 class="item-features__title">Швидке та легке повернення коштів</h3>
+                    <p class="item-features__paragraph">Якщо передумаєте вчитися – повернемо гроші за 3 робочих дні</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="cost" id="cost">
+            <h2 class="cost__title title">Вартість навчання</h2>
+            <ul class="cost__table">
+                <li class="cost__head">
+                    <p>Блок</p>
+                    <p>Вартість (₴)</p>
+                    <p>Розрахунковий час навчання (міс.) *</p>
+                </li>
+
+                <li class="cost__item">
+                    <p>Введення в програмування</p>
+                    <p>Безкоштовно</p>
+                    <p>0.5</p>
+                </li>
+                <li class="cost__item">
+                    <p>Основи програмування на Python</p>
+                    <p>4400</p>
+                    <p>1</p>
+                </li>
+                <li class="cost__item">
+                    <p>Python, вищий рівень</p>
+                    <p>7500</p>
+                    <p>2.5</p>
+                </li>
+                <li class="cost__item">
+                    <p>Базы данных</p>
+                    <p>7500</p>
+                    <p>2.5</p>
+                </li>
+                <li class="cost__item">
+                    <p>Фреймворк Django</p>
+                    <p>7500</p>
+                    <p>2</p>
+                </li>
+                <li class="cost__item">
+                    <p>Розробка "бойового" проекту</p>
+                    <p>4500</p>
+                    <p>1.5</p>
+                </li>
+                
+                <li class="cost__total">
+                    <p>Разом</p>
+                    <p>23900</p>
+                    <p>10</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="letter" id="letter">
+            <h2 class="letter__title title">Приєднуйтесь до NeoSchool - шлях до успіху починається тут!</h2>
+            <p class="letter__paragraph paragraph">В NeoSchool ми відкриті до нових талантів та ставимо перед собою мету забезпечити якісну освіту для молодих інноваторів. Процес зарахування до нашої школи є простим і доступним. Щоб стати частиною NeoSchool, вам потрібно описати себе як кандидата у формі нижче і надіслати нам</p>
+            <form class="letter__form" action="#">
+                <input class="letter__input" type="email" name="email" id="email" placeholder="Ваша пошта">
+                <button class="letter__button">Надіслати</button>
+            </form>
+        </section>
 
     </main>
 
